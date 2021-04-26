@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+.clear{
+    clear: both;
+}
+.center{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+/* Header */
+
+header{
+    background: #7b1fa2;
+    padding: 10px 0;
+
+}
+.logo{
+    float: left;
+    color: white;    
+}
+nav{
+    position: relative;
+    top: 8px;
+    float: right;
+}
+nav a{
+    color: white;
+    display: inline-block;
+    font-size: 17px;
+    padding: 0 15px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.chamada{
+    padding: 40px 15px;
+    background-color: #9c27b0;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.chamada h2{
+    text-align: center;
+    width: 400px;
+    display: inline-block;
+    border-top: 3px solid white;
+}
+.principal{
+    padding: 40px 0;
+}
+.principal h2{
+    color: #4b4b4b;
+    font-size: 22px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.sobre p{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #4b4b4b;
+}
+.contato{
+    padding: 80px 0;
+    text-align: center;
+}
+.contato form{
+    width: 100%;
+    max-width: 600px;
+    display: inline-block;
+}
+.contato input[type=text]{
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    padding-left: 8px;
+    display: block;
+}
+.contato textarea{
+    border-radius: 5px;
+    margin-top: 8px;
+    width: 100%;
+    height: 120px;
+    display: block;
+    padding: 10px;
+}
+.contato input[type=submit]{
+    margin-top: 8px;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    background: #7b1fa2;
+    color: white;
+    cursor: pointer;
+}
+.alerta{
+    background: rgb(255,255,225);
+    padding: 8px;
+    border-left: 4px solid #4b4b4b;    
+}
+.alerta h3{
+    margin: 10px 0;
+    font-weight: normal;
+    color: #4b4b4b;
+
+}
+#mail-contato{
+    margin-top: 8px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    background: #7b1fa2;
+}
